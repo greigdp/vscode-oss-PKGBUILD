@@ -1,0 +1,40 @@
+--- product.json.old	2015-12-01 10:41:10.791393000 +0000
++++ product.json	2015-12-01 11:15:47.061308157 +0000
+@@ -1,6 +1,6 @@
+ {
+-	"nameShort": "Code [OSS Build]",
+-	"nameLong": "Code [OSS Build]",
++	"nameShort": "Code",
++	"nameLong": "Visual Studio Code",
+ 	"win32ExeBasename": "CodeOSS",
+ 	"companyName": "Microsoft Corporation",
+ 	"copyright": "Copyright (C) 2015 Microsoft. All rights reserved",
+@@ -13,6 +13,8 @@
+ 		"extensions": ["ascx", "asp", "aspx", "bash", "bash_login", "bash_logout", "bash_profile", "bashrc", "bat", "bowerrc", "c", "cc", "clj", "cljs", "cljx", "clojure", "cmd", "coffee", "config", "cpp", "cs", "cshtml", "csproj", "css", "csx", "ctp", "cxx", "dockerfile", "dot", "dtd", "editorconfig", "edn", "eyaml", "eyml", "fs", "fsi", "fsscript", "fsx", "gemspec", "gitattributes", "gitconfig", "gitignore", "go", "h", "handlebars", "hbs", "hh", "hpp", "htm", "html", "hxx", "ini", "jade", "jav", "java", "js", "jscsrc", "jshintrc", "jshtm", "json", "jsp", "less", "lua", "m", "makefile", "markdown", "md", "mdoc", "mdown", "mdtext", "mdtxt", "mdwn", "mkd", "mkdn", "ml", "mli", "nqp", "p6", "php", "phtml", "pl", "pl6", "pm", "pm6", "pod", "pp", "profile", "properties", "ps1", "psd1", "psgi", "psm1", "py", "r", "rb", "rhistory", "rprofile", "rs", "rt", "scss", "sh", "shtml", "sql", "svg", "svgz", "t", "ts", "txt", "vb", "wxi", "wxl", "wxs", "xaml", "xml", "yaml", "yml", "zsh"],
+ 		"iconFile": "resources/darwin/code_file.icns"
+ 	}],
++	"downloadUrl": "https://code.visualstudio.com",
++	"welcomePage": "resources/welcome.md",
+ 	"icons": {
+ 		"application": {
+ 			"png": "resources/linux/code.png",
+@@ -23,5 +25,16 @@
+ 			"icns": "resources/darwin/code_file.icns",
+ 			"ico": "resources/win32/code_file.ico"
+ 		}
+-	}
+-}
+\ No newline at end of file
++	},
++	"extensionsGallery": {
++		"serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
++		"itemUrl": "https://marketplace.visualstudio.com/items"
++	},
++	"documentationUrl": "http://go.microsoft.com/fwlink/?LinkID=533484#vscode",
++	"releaseNotesUrl": "http://go.microsoft.com/fwlink/?LinkID=533483#vscode",
++	"twitterUrl": "http://go.microsoft.com/fwlink/?LinkID=533687",
++	"requestFeatureUrl": "http://go.microsoft.com/fwlink/?LinkID=533482",
++	"reportIssueUrl": "http://go.microsoft.com/fwlink/?LinkId=534872",
++	"licenseUrl": "http://go.microsoft.com/fwlink/?LinkID=533485#vscode",
++	"privacyStatementUrl": "http://go.microsoft.com/fwlink/?LinkID=528096&clcid=0x409"
++}
